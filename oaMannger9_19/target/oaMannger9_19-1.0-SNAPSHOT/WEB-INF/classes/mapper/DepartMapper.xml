@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sm.dao.DepartMapper">
+    <select id="selectByDid" resultType="com.sm.bean.Depart">
+        select * from Depart where did=#{did}
+    </select>
+    <select id="selectByStatus" resultType="com.sm.bean.Depart">
+        select * from Depart where dstatus=#{dstatus}
+    </select>
+
+    <insert id="addDepart" parameterType="com.sm.bean.Depart">
+        insert Depart value(null,#{dname},#{duty},#{credate},#{dstatus});
+    </insert>
+    <update id="updateDepart" parameterType="com.sm.bean.Depart">
+        update Depart <set>
+        <if test="dname != null">
+            dname=#{dname},
+        </if>
+        <if test="duty != null">
+            duty=#{duty},
+        </if>
+        <if test="credate != null">
+            credate=#{credate},
+        </if>
+        <if test="dstatus != null">
+            dstatus=#{dstatus}
+        </if>
+    </set>
+        where did=#{did}
+    </update>
+
+</mapper>

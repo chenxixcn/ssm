@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sm.dao.OrdersMapper">
+    <resultMap id="ACOrders" type="com.sm.bean.Orders">
+        <id property="id" column="id"/>
+        <result property="total" column="total"/>
+        <result property="amount" column="amount"/>
+        <result property="status" column="status"/>
+        <result property="paytype" column="paytype"/>
+        <result property="name" column="name"/>
+        <result property="phone" column="phone"/>
+        <result property="address" column="address"/>
+        <result property="systime" column="systime"/>
+        <result property="user_id" column="user_id"/>
+        <association property="users" column="user_id" javaType="com.sm.bean.Users" select="com.sm.dao.UsersMapper.selectUserByID"></association>
+        <collection property="items" column="id" ofType="com.sm.bean.Items" select="com.sm.dao.ItemsMapper.selectItemsByOrderId"></collection>
+    </resultMap>
+
+    <select id="selectAll" resultMap="ACOrders">
+        select * from orders
+        <if test="status!=0">
+        where status=#{status}
+    </if>
+    </select>
+    <delete id="deleteOrdersById" >
+        delete from orders where id=#{id}
+    </delete>
+    <update id="updateOrdersStatusById">
+        update orders set status=#{status} where id=#{id}
+    </update>
+    <insert id="insertOrder" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert orders value(#{id},#{total},#{amount},#{status},#{paytype},#{name},#{phone},#{address},#{systime},#{user_id})
+    </insert>
+    <update id="updateOrder" >
+        update orders <set>
+        <if test="name!=null">
+            name=#{name}
+        </if>
+        <if test="phone!=null">
+            ,phone=#{phone}
+        </if>
+        <if test="address!=null">
+            ,address=#{address}
+        </if>
+        <if test="paytype!=0">
+            ,paytype=#{paytype}
+        </if>
+            ,status=2
+    </set>
+    where id=#{id}
+    </update>
+    <select id="selectById" resultMap="ACOrders">
+        select * from orders where id=#{id}
+    </select>
+    <select id="selectOrderByUserId" resultMap="ACOrders">
+        select * from orders where user_id=#{id} order by id desc
+    </select>
+</mapper>

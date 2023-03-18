@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="oaMannger9_19:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17df72ac-b421-4eb8-a390-927e902fc40f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - oadb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - oadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - oadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="oadb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - oadb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="oadb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="depart: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mapper" />
+        <option value="mybatis" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Program Files\Maven\Maven-Repository" />
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ExwknG5cpCwn0O1ccAw14T14dc" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.17401393" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\oaMannger9_19\src\main\resouces\mapper" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\oaMannger9_19\src\main\webapp" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\oaMannger9_19\src\main\java\com\sm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sm.dao" />
+      <recent name="com.sm.bean" />
+      <recent name="com.sm.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\oaMannger9_19\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\oaMannger9_19\src\main\webapp" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\oaMannger9_19\src\main\webapp\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.oaMannger9_19 [tomcat7:run]">
+    <configuration name="oaMannger9_19 [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="oaMannger9_19:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_oaMannger9_19" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58781" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oaMannger9_19:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.66" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="D:\AworkFromHP\项目\oaMannger9_19\.idea" />
+      <option name="envOptions" />
+      <option name="moduleName" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8081" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 8.5.66" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\tomcat\Tomcat 8.5" />
+          <option name="version" value="8.5.66.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oaMannger9_19:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.66(1)" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="D:\AworkFromHP\项目\oaMannger9_19\.idea" />
+      <option name="envOptions" />
+      <option name="moduleName" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8082" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 8.5.66" />
+          <option name="number" value="1" />
+          <option name="path" value="C:\Program Files\Apache Software Foundation\Tomcat 8.5" />
+          <option name="version" value="8.5.66.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.76" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="D:\AworkFromHP\项目\oaMannger9_19\.idea" />
+      <option name="envOptions" />
+      <option name="moduleName" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 8.5.76" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\apache-tomcat-8.5.76" />
+          <option name="version" value="8.5.76.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oaMannger9_19:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="envOptions" />
+      <option name="moduleName" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8081" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 8.5.37" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\apache-tomcat-8.5.37" />
+          <option name="version" value="8.5.37.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.oaMannger9_19 [tomcat7:run]" />
+      <item itemvalue="Smart Tomcat.Tomcat 8.5.76" />
+      <item itemvalue="Smart Tomcat.Tomcat 8.5.66" />
+      <item itemvalue="Smart Tomcat.Tomcat 8.5.66(1)" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@52a3ec7e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17df72ac-b421-4eb8-a390-927e902fc40f" name="Default Changelist" comment="" />
+      <created>1663550688442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663550688442</updated>
+      <workItem from="1663550692396" duration="2380000" />
+      <workItem from="1663553285106" duration="6072000" />
+      <workItem from="1663652770269" duration="18292000" />
+      <workItem from="1663675827363" duration="561000" />
+      <workItem from="1663722417100" duration="3607000" />
+      <workItem from="1663762084763" duration="4000" />
+      <workItem from="1663826113356" duration="3639000" />
+      <workItem from="1663830626229" duration="6836000" />
+      <workItem from="1663839808761" duration="4523000" />
+      <workItem from="1663844957577" duration="339000" />
+      <workItem from="1663845372289" duration="2724000" />
+      <workItem from="1663848265765" duration="1755000" />
+      <workItem from="1663850154892" duration="8154000" />
+      <workItem from="1663894315649" duration="6911000" />
+      <workItem from="1663916295309" duration="6989000" />
+      <workItem from="1663980639401" duration="8137000" />
+      <workItem from="1664025375021" duration="3810000" />
+      <workItem from="1664113641370" duration="1741000" />
+      <workItem from="1664171680034" duration="15955000" />
+      <workItem from="1664191794419" duration="1118000" />
+      <workItem from="1664239507667" duration="9780000" />
+      <workItem from="1664344205174" duration="6493000" />
+      <workItem from="1664414547862" duration="9264000" />
+      <workItem from="1664519872532" duration="511000" />
+      <workItem from="1665193253379" duration="83000" />
+      <workItem from="1665223760344" duration="478000" />
+      <workItem from="1665645562259" duration="1563000" />
+      <workItem from="1665663350437" duration="605000" />
+      <workItem from="1665715798765" duration="343000" />
+      <workItem from="1665731066596" duration="56000" />
+      <workItem from="1665894505097" duration="120000" />
+      <workItem from="1665895245171" duration="83000" />
+      <workItem from="1665985822218" duration="998000" />
+      <workItem from="1666801211905" duration="889000" />
+      <workItem from="1666841034690" duration="443000" />
+      <workItem from="1666844885464" duration="757000" />
+      <workItem from="1666857967856" duration="529000" />
+      <workItem from="1667187062261" duration="1410000" />
+      <workItem from="1667196962822" duration="12000" />
+      <workItem from="1667198011576" duration="2977000" />
+      <workItem from="1667377382108" duration="48000" />
+      <workItem from="1667391758930" duration="629000" />
+      <workItem from="1667392557769" duration="4545000" />
+      <workItem from="1667552856825" duration="98000" />
+      <workItem from="1667565428585" duration="592000" />
+      <workItem from="1667566050738" duration="7502000" />
+      <workItem from="1670598341324" duration="751000" />
+      <workItem from="1679110731940" duration="10355000" />
+      <workItem from="1679122056646" duration="551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

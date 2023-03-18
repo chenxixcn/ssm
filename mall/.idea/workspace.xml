@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mall:war" />
+      <artifact name="mall:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93243a49-5c31-4877-a124-a32b284afa73" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mall@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mall: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mall: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="admins: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mall: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="carts: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mall: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="goods: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="mybatis" />
+        <option value="Interface" />
+        <option value="mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Program Files\Maven\Maven-Repository" />
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FTeDpi7p2tj6z8QW19COz3rOo2" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mallProject" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1375" />
+    <property name="project.structure.side.proportion" value="0.32393292" />
+    <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sm.service" />
+      <recent name="com.sm.dao" />
+      <recent name="com.sm.service.Impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp\upload" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp\index" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp\WEB-INF\lib" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\java\com\sm\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sm.utils" />
+      <recent name="com.sm.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp\admin" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp" />
+      <recent name="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\resouces" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.mall [tomcat7:run]">
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sm.test.test2" />
+      <module name="mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mall [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mall:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_mall" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58321" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mall:war exploded" />
+          <artifact name="mall:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.66" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="C:\Users\86183\Desktop\AworkFromHP\项目\mall\src\main\webapp" />
+      <option name="envOptions" />
+      <option name="moduleName" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 8.5.66" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\tomcat\Tomcat 8.5" />
+          <option name="version" value="8.5.66.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.76" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="D:\AworkFromHP\项目\mall\.idea" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="moduleName" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 8.5.76" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\apache-tomcat-8.5.76" />
+          <option name="version" value="8.5.76.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test2" />
+      <item itemvalue="Maven.mall [tomcat7:run]" />
+      <item itemvalue="Smart Tomcat.Tomcat 8.5.76" />
+      <item itemvalue="Smart Tomcat.Tomcat 8.5.66" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@34efa6dd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93243a49-5c31-4877-a124-a32b284afa73" name="Default Changelist" comment="" />
+      <created>1664520384634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664520384634</updated>
+      <workItem from="1664520388868" duration="1919000" />
+      <workItem from="1665155413788" duration="5408000" />
+      <workItem from="1665191115064" duration="10780000" />
+      <workItem from="1665221358657" duration="1980000" />
+      <workItem from="1665294204065" duration="11035000" />
+      <workItem from="1665363898129" duration="7185000" />
+      <workItem from="1665423367547" duration="1082000" />
+      <workItem from="1665448014208" duration="6112000" />
+      <workItem from="1665467681341" duration="11749000" />
+      <workItem from="1665497895198" duration="5510000" />
+      <workItem from="1665536257194" duration="8483000" />
+      <workItem from="1665559141404" duration="9312000" />
+      <workItem from="1665589818854" duration="18000" />
+      <workItem from="1665639602656" duration="3485000" />
+      <workItem from="1665650188491" duration="1069000" />
+      <workItem from="1665651595292" duration="24000" />
+      <workItem from="1665663642352" duration="320000" />
+      <workItem from="1665727130177" duration="2054000" />
+      <workItem from="1665735314630" duration="242000" />
+      <workItem from="1665822053804" duration="1598000" />
+      <workItem from="1665894486991" duration="15000" />
+      <workItem from="1666023821077" duration="1484000" />
+      <workItem from="1666845017931" duration="650000" />
+      <workItem from="1666857969908" duration="29000" />
+      <workItem from="1667196977411" duration="8466000" />
+      <workItem from="1667214975323" duration="4477000" />
+      <workItem from="1667222357165" duration="4291000" />
+      <workItem from="1667264415766" duration="182000" />
+      <workItem from="1667374105637" duration="7062000" />
+      <workItem from="1667391737514" duration="642000" />
+      <workItem from="1667393421779" duration="2337000" />
+      <workItem from="1667395815393" duration="44000" />
+      <workItem from="1667395866880" duration="26000" />
+      <workItem from="1667395901874" duration="11000" />
+      <workItem from="1667395994137" duration="11118000" />
+      <workItem from="1667443349810" duration="4191000" />
+      <workItem from="1667454595166" duration="2019000" />
+      <workItem from="1667460086830" duration="11000" />
+      <workItem from="1667460149932" duration="2298000" />
+      <workItem from="1667468700797" duration="1152000" />
+      <workItem from="1667541498967" duration="553000" />
+      <workItem from="1667546857320" duration="41000" />
+      <workItem from="1667551999943" duration="849000" />
+      <workItem from="1667573998943" duration="1044000" />
+      <workItem from="1667650974122" duration="4947000" />
+      <workItem from="1667663696521" duration="1336000" />
+      <workItem from="1667739466902" duration="603000" />
+      <workItem from="1667781992905" duration="8288000" />
+      <workItem from="1667887586078" duration="8059000" />
+      <workItem from="1667908270591" duration="2252000" />
+      <workItem from="1667981837232" duration="10560000" />
+      <workItem from="1667999638225" duration="3546000" />
+      <workItem from="1668059706708" duration="11569000" />
+      <workItem from="1668081378818" duration="3689000" />
+      <workItem from="1668085479705" duration="1077000" />
+      <workItem from="1668128725511" duration="278000" />
+      <workItem from="1668405954359" duration="9987000" />
+      <workItem from="1668578298674" duration="10486000" />
+      <workItem from="1668646583227" duration="3286000" />
+      <workItem from="1668752175087" duration="610000" />
+      <workItem from="1668779712048" duration="40000" />
+      <workItem from="1668829214799" duration="773000" />
+      <workItem from="1668840685263" duration="95000" />
+      <workItem from="1669269496379" duration="920000" />
+      <workItem from="1679121651520" duration="43000" />
+      <workItem from="1679121760708" duration="7000" />
+      <workItem from="1679121799482" duration="39000" />
+      <workItem from="1679121895833" duration="900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="com.poratu.idea.plugins.tomcat">
+        <watch expression="password" />
+        <watch expression="password" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mall$index_html__1_.ic" NAME="index.html (1) Coverage Results" MODIFIED="1667220043032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

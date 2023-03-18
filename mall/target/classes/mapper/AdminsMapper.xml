@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sm.dao.AdminsMapper">
+    <select id="selectAllAdmins" resultType="com.sm.bean.Admins">
+        select * from Admins
+    </select>
+    <select id="selectAdminByUserAndPass" resultType="com.sm.bean.Admins">
+        select * from admins where username=#{username} and password=#{password}
+    </select>
+    <insert id="insertAdmin">
+        insert admin value(null,#{username},#{password})
+    </insert>
+    <delete id="deleteAdmin">
+        delete admin from id=#{id}
+    </delete>
+</mapper>

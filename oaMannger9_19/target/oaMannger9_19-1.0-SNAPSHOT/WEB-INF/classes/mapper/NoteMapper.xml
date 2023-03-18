@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sm.dao.NoteMapper">
+    <resultMap id="selectEmployee" type="com.sm.bean.Note">
+        <id property="nid" column="nid"/>
+        <result property="title" column="title"/>
+        <result property="context" column="context"/>
+        <result property="startdate" column="startdate"/>
+        <result property="enddate" column="enddate"/>
+        <result property="length" column="length"/>
+        <result property="subdate" column="subdate"/>
+        <result property="nstatus" column="nstatus"/>
+        <result property="reldate" column="reldate"/>
+        <result property="eid" column="eid"/>
+        <association property="employee" column="eid" javaType="com.sm.bean.Employee" select="com.sm.dao.EmployeeMapper.selectEmployeeByEid"></association>
+    </resultMap>
+    <select id="selectNoteByEid" resultMap="selectEmployee">
+        select * from note where eid=#{eid}
+    </select>
+    <insert id="insertNote">
+        insert note value(null,#{title},#{context},#{startdate},#{enddate},#{length},now(),0,null,#{eid})
+    </insert>
+
+    <select id="selectStatus" resultMap="selectEmployee">
+        select * from note where
+        <if test="nstatus==0">
+            nstatus=0
+        </if>
+        <if test="nstatus!=0">
+            nstatus!=0
+        </if>
+        and eid in
+        <foreach collection="eids" open="(" separator="," close=")" item="eid">
+            #{eid}
+        </foreach>
+    </select>
+    <update id="updateStatus">
+        update note set nstatus=#{nstatus} where nid=#{nid}
+    </update>
+    <select id="selectByNid" resultType="com.sm.bean.Note">
+        select * from note where nid=#{nid}
+    </select>
+    <update id="updateNote">
+        update note
+            <set>
+                <if test="title!=null">
+                    title=#{title},
+                </if>
+                <if test="context!=null">
+                    context=#{context},
+                </if>
+                <if test="startdate!=null">
+                    startdate=#{startdate},
+                </if>
+                <if test="enddate!=null">
+                    enddate=#{enddate},
+                </if>
+                <if test="length!=null">
+                    length=#{length},
+                </if>
+                <if test="subdate!=null">
+                    subdate=#{subdate},
+                </if>
+                <if test="nstatus!=null">
+                    nstatus=#{nstatus},
+                </if>
+                <if test="reldate!=null">
+                    reldate=#{reldate},
+                </if>
+            </set>
+            where nid=#{nid}
+    </update>
+</mapper>

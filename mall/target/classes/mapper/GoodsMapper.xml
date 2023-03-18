@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sm.dao.GoodsMapper">
+    <select id="selectAllGoods" resultType="com.sm.bean.Goods">
+        select a.*,b.name as typeName,c.type from goods a left join types b on a.type_id=b.id left join tops c on a.id=c.good_id
+        <if test="type==1">
+            where type=1
+        </if>
+    </select>
+    <insert id="insertGoods" >
+        insert goods value(null,#{cover},#{name},#{intro},#{spec},#{price},#{stock},0,#{content},#{type_id})
+    </insert>
+    <select id="selectGoodsById" resultType="com.sm.bean.Goods">
+        select g.*,t.name as typeName  from goods g,types t where g.type_id=t.id and g.id=#{id};
+    </select>
+    <update id="updateGoodsById">
+        update goods set
+        cover=#{cover},name=#{name},intro=#{intro},spec=#{spec},
+        price=#{price},stock=#{stock},sales=#{sales},content=#{content},
+        type_id=#{type_id}
+        where id=#{id}
+    </update>
+    <delete id="delGoodsById">
+        delete from goods where id=#{id}
+    </delete>
+    <select id="selectTopGoods" resultType="com.sm.bean.Goods">
+        select * from goods a left join tops c on a.id=c.good_id where type=1
+    </select>
+    <select id="selectOrderBySale" resultType="com.sm.bean.Goods">
+        select * from goods order by sales DESC
+    </select>
+    <select id="selectGoodsOrderById" resultType="com.sm.bean.Goods">
+        select * from goods order by id DESC
+    </select>
+    <select id="selectGoodsLikeName" resultType="com.sm.bean.Goods">
+        <bind name="name" value="'%'+name+'%'"/>
+        select * from goods where name like #{name}
+    </select>
+    <select id="selectGoodsByTypeById" resultType="com.sm.bean.Goods">
+        select * from goods where type_id=#{id}
+    </select>
+</mapper>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sm.dao.EmployeeMapper">
+
+    <resultMap id="SEBNAPA" type="com.sm.bean.Employee">
+        <id property="eid" column="eid"/>
+        <result property="ename" column="ename"/>
+        <result property="epass" column="epass"/>
+        <result property="realname" column="realname"/>
+        <result property="esex" column="esex"/>
+        <result property="entrydate" column="entrydate"/>
+        <result property="leavedate" column="leavedate"/>
+        <result property="position" column="position"/>
+        <result property="sal" column="sal"/>
+        <result property="estatus" column="estatus"/>
+        <result property="did" column="did"/>
+        <association property="depart"  select="com.sm.dao.DepartMapper.selectByDid" column="did" javaType="com.sm.bean.Depart"/>
+    </resultMap>
+
+    <select id="selectEmployeeByNameAndPass" resultMap="SEBNAPA">
+        select * from Employee where ename=#{ename} and epass=#{epass} and estatus=0
+    </select>
+
+    <update id="updatePass">
+        update Employee
+        <set>
+            <if test="epass!=null">
+                epass=#{epass}
+            </if>
+        </set>
+        where eid=#{eid}
+    </update>
+
+    <select id="selectEmployeeByStatus" resultMap="SEBNAPA">
+        select * from employee where estatus=#{estatus}
+    </select>
+
+    <select id="selectEmployeeByRealName" resultMap="SEBNAPA">
+    <bind name="realname" value="'%'+realname+'%'"/>
+        select * from employee where estatus=#{estatus} and realname like #{realname}
+    </select>
+
+    <insert id="insertEmployee">
+        insert Employee value(null,#{ename},#{epass},#{realname},#{esex},#{entrydate},#{leavedate},#{position},#{sal},#{estatus},#{did});
+    </insert>
+    <update id="updateEmployee">
+        update Employee
+         <set>
+             <if test="ename!=null">
+                ename=#{ename},
+             </if>
+             <if test="epass!=null">
+                 epass=#{epass},
+             </if>
+             <if test="realname!=null">
+                 realname=#{realname},
+             </if>
+             <if test="esex!=null">
+                 esex=#{esex},
+             </if>
+             <if test="entrydate!=null">
+                 entrydate=#{entrydate},
+             </if>
+             <if test="leavedate!=null">
+                 leavedate=#{leavedate},
+             </if>
+             <if test="position!=null">
+                 position=#{position},
+             </if>
+             <if test="sal!=null">
+                 sal=#{sal},
+             </if>
+             <if test="estatus!=null">
+                 estatus=#{estatus},
+             </if>
+             <if test="did!=null">
+                 did=#{did}
+             </if>
+         </set>
+         where eid=#{eid}
+    </update>
+    <select id="selectEmployeeByEid" resultMap="SEBNAPA">
+        select * from Employee where eid=#{eid}
+    </select>
+    <select id="selectEidByPosition" resultType="int">
+        select eid from employee where position=#{position}
+    </select>
+    <select id="selectByDid" resultType="int">
+        select count(*) from employee where did=#{did}
+    </select>
+</mapper>
