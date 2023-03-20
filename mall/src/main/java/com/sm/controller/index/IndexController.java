@@ -118,7 +118,7 @@ public class IndexController {
             mav.setViewName("index/register_ok");
             return mav;
         }
-        mav.addObject("msg","注册失败");
+        mav.addObject("msg","用户名已存在");
         mav.setViewName("index/register");
         return mav;
     }

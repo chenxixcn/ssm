@@ -33,8 +33,8 @@ public class UsersServiceImpl implements UsersService {
         users.setStatus("N");
         int ok=usersMapper.insertUser(users);
         if(ok==1){
-            MailUtils.sendMail("3071435148@qq.com","你好，这是一封测试邮件，无需回复。<a href='http://localhost:8080/index/active?code="+users.getCode()+"'>点击激活</a>","测试邮件");
-            System.out.println("发送成功");
+            MailUtils.sendMail(users.getEmail(),"你好，这是一封测试邮件，无需回复。<a href='http://localhost:8080/index/active?code="+users.getCode()+"'>点击激活</a>","测试邮件");
+            System.out.println("成功发送给:"+users.getEmail());
             return true;
         }
         return false;
